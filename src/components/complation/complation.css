@@ -1,0 +1,22 @@
+.counter-section {
+  background-color: #37a9ad;
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 2rem;
+}
+.counter-cards {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: blue; */
+}
+.counter-data h6 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.counter-data p {
+  color: #fff;
+  font-weight: bold;
+}
+.card-body {
+}

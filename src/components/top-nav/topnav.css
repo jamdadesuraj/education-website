@@ -1,0 +1,84 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons ul {
+  display: flex;
+}
+.top-logo img {
+  width: 90px;
+}
+.social-icons ul li {
+  overflow: hidden;
+  list-style: none;
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+  background-color: #0a0708;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s;
+}
+
+.social-icons ul li span {
+  display: none;
+  font-size: 14px;
+  margin-left: 4px;
+  transition: all 4s;
+  transition-delay: 1s;
+}
+
+.social-icons ul li:hover span {
+  display: block;
+}
+
+.social-icons ul li:hover {
+  width: 90px;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  padding-left: 10px;
+}
+
+.top-nav-button button {
+  width: 5rem;
+  border-radius: 8px;
+  background-color: #0a0708;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.top-nav-button button:hover {
+  width: 5rem;
+  border-radius: 8px;
+  background-color: #37a9ad;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .social-icons {
+    display: none;
+  }
+  .top-nav-button button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+}

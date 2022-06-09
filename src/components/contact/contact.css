@@ -1,0 +1,31 @@
+.contact-section {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+.contact-footer p {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.contact-footer button {
+  background-color: black;
+  color: #f2f2f2;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 8px;
+}
+.contact-footer button:hover {
+  background-color: #39a9ad;
+  color: black;
+  font-weight: bold;
+}

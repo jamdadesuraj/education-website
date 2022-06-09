@@ -1,0 +1,14 @@
+.testimonial-data h6 {
+  color: #37a9ad;
+  text-align: center;
+  font-weight: bold;
+}
+.testimonial-data h1 {
+  color: #000;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.test-img img {
+  border-radius: 50px;
+}

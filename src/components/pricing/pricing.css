@@ -1,0 +1,32 @@
+.pricing-data {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pricing-data h5 {
+  text-align: center;
+}
+.pricing-data h6 {
+  text-align: center;
+  color: #37a9ad;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.pricing-data button {
+  background-color: none;
+  outline: none;
+  border: 1px solid #37a9ad;
+  text-align: center;
+  color: #37a9ad;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 8px;
+}
+.pricing-data button a {
+  text-decoration: none;
+}
+.pricing-data button:hover {
+  background-color: #37a9ad;
+  text-decoration: none;
+}

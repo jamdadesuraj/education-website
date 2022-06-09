@@ -1,0 +1,52 @@
+.signup-section {
+  /* background-image: url(https://image.freepik.com/free-photo/happy-woman-doing-online-shopping-home_329181-4301.jpg); */
+  background-image: url(https://image.freepik.com/free-photo/happy-woman-doing-online-shopping-home_329181-4301.jpg);
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  opacity: 3;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.card {
+  background-color: #00544f;
+  width: 400px;
+}
+
+.form-control {
+  background-color: #00544f;
+  border: none;
+  border-bottom: 1px solid #eee;
+  border-radius: 1px;
+  padding: 2px;
+  padding-bottom: 8px;
+}
+
+.form-control:focus {
+  background-color: #00544f;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+  color: #fff;
+}
+
+.btn-secondary {
+  height: 50px;
+  border-radius: 30px;
+}
+
+.terms {
+  font-size: 13px;
+}

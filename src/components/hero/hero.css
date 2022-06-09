@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Teko&display=swap");
+.hero-section {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  margin-top: 10rem;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+}
+.hero-data {
+  width: 50%;
+  height: 50%;
+}
+.hero-data h2 {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #e90f0f;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+.hero-data h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(22, 14, 31);
+  font-family: "Lobster", cursive;
+}
+.hero-data p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #143435;
+  letter-spacing: 2px;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+/* -----------------------button----------------------------------- */
+
+.hero-buttons a button {
+  margin-left: 1rem;
+  padding: 1rem;
+  background-color: #37a9ad;
+  color: #000;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  /* border: 1px solid blue; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  scroll-behavior: smooth;
+}
+.hero-buttons a button:hover {
+  background-color: rgb(102, 134, 53);
+  color: #000;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-buttons a button {
+    /* margin-left: 1rem; */
+    margin-top: 15px;
+    padding: 1rem;
+    background-color: transparent;
+    color: #000;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid blue;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    scroll-behavior: smooth;
+  }
+}

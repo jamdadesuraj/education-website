@@ -1,0 +1,35 @@
+.courseList-section {
+  width: 100%;
+  height: 90vh;
+  scroll-behavior: smooth;
+  background-color: #f2f2f2;
+}
+.title-text {
+  color: green;
+  font-weight: bold;
+}
+
+.card-courseList {
+  height: 100%;
+}
+.courseList-data h6 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #37a9ad;
+}
+.courseList-data h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+.card-courseList:hover {
+  background-color: #6eb0b3;
+  color: #fff;
+  transition: 2s;
+}
+.title-text :hover {
+  color: #fff;
+  transition: 2s;
+}

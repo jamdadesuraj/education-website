@@ -1,0 +1,289 @@
+/* ---------------------social icons------------------------------------------ */
+
+.social-icons {
+  display: flex;
+  list-style: none;
+}
+
+.social-icons li a {
+  /* padding: 20px; */
+  color: #fff;
+  /* font-size: 30px; */
+  cursor: pointer;
+  color: #111d83;
+  margin-right: 16px;
+  /* position: relative; */
+  text-align: center;
+  /* line-height: 70px; */
+  width: 80px;
+  height: 80px;
+}
+
+.social-icons li a:hover i {
+  transform: scale(1.1);
+}
+.hero Button {
+  margin-left: 1rem;
+}
+.social-icons li a:hover::before {
+  transform: skewX(20deg);
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-radius: 50%;
+}
+
+.social-icons li a:hover::after {
+  transform: skewY(-25deg);
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-radius: 50%;
+}
+
+@media (max-width: 700px) {
+  ul.social-icons {
+    display: none;
+  }
+  .wrapper {
+    display: none;
+  }
+}
+/* --------------------------------------------------------------- */
+.top-nav {
+  padding-top: 1rem;
+}
+.navbar {
+  -webkit-box-shadow: 0px -1px 9px -3px rgba(0, 0, 0, 0.75) !important;
+  -moz-box-shadow: 0px -1px 9px -3px rgba(0, 0, 0, 0.75) !important;
+  box-shadow: 0px -1px 9px -3px rgba(0, 0, 0, 0.75) !important;
+}
+@media (min-width: 768px) {
+  .header-blue {
+    padding-bottom: 120px;
+  }
+}
+.poly-Head {
+  position: relative;
+  color: #aaa;
+}
+.wrapper {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  color: #fff;
+  background-color: #000;
+  clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+  transition: 1s all;
+}
+
+.header-blue .navbar {
+  background: transparent;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: rgb(26, 18, 18);
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .header-blue .navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.header-blue .navbar .navbar-brand {
+  font-weight: bold;
+  color: inherit;
+}
+
+.header-blue .navbar .navbar-brand:hover {
+  color: #1a1212;
+}
+
+.header-blue .navbar .navbar-collapse {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .header-blue .navbar .navbar-collapse {
+    border-color: transparent;
+    margin: 0;
+  }
+}
+
+.header-blue .navbar .navbar-collapse span .login {
+  color: rgb(15, 15, 15);
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+.header-blue .navbar .navbar-collapse span .login:hover {
+  color: rgb(15, 14, 14);
+}
+
+.header-blue .navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-blue .navbar .navbar-toggler:hover,
+.header-blue .navbar-toggler:focus {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .header-blue .navbar-nav .nav-link {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-blue .navbar-nav .nav-link {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+.header-blue .navbar.navbar-light .navbar-nav .nav-link {
+  color: rgb(14, 12, 12);
+  font-weight: bold;
+}
+
+.header-blue .navbar.navbar-light .navbar-nav .nav-link:focus,
+.header-blue .navbar.navbar-light .navbar-nav .nav-link:hover {
+  color: red !important;
+  background-color: transparent;
+}
+
+.header-blue .navbar .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(17, 15, 15);
+  border-radius: 2px;
+}
+
+.header-blue .navbar .dropdown-menu .dropdown-item:focus,
+.header-blue .navbar .dropdown-menu .dropdown-item {
+  line-height: 2;
+  color: #37434d;
+}
+
+.header-blue .navbar .dropdown-menu .dropdown-item:focus,
+.header-blue .navbar .dropdown-menu .dropdown-item:hover {
+  background: #23485a;
+}
+
+.header-blue .action-button,
+.header-blue .action-button:not(.disabled):active {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 40px;
+  color: rgb(8, 8, 8);
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0.3rem 0.8rem;
+  background: transparent;
+  transition: background-color 0.25s;
+  outline: none;
+}
+
+.header-blue .action-button:hover {
+  color: rgb(19, 17, 17);
+}
+
+.header-blue .navbar .form-inline label {
+  color: #d9d9d9;
+}
+
+.header-blue .navbar .form-inline .search-field {
+  display: inline-block;
+  width: 80%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  color: rgb(12, 11, 11);
+  box-shadow: none;
+  color: inherit;
+  transition: border-bottom-color 0.3s;
+}
+
+.header-blue .navbar .form-inline .search-field:focus {
+  border-bottom: 1px solid #ccc;
+}
+
+@media (min-width: 768px) {
+  .header-blue .hero {
+    /* margin-top: 60px; */
+    text-align: left;
+  }
+}
+
+.header-blue .hero h1 {
+  color: rgb(22, 15, 15);
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-weight: 300;
+  /* line-height: 1.4; */
+}
+
+@media (min-width: 992px) {
+  .header-blue .hero h1 {
+    margin-top: 190px;
+    margin-bottom: 24px;
+    line-height: 1.2;
+  }
+}
+
+.header-blue .hero p {
+  color: #040d27;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.header-blue .phone-holder {
+  text-align: right;
+}
+
+.header-blue div.iphone-mockup {
+  position: relative;
+  max-width: 300px;
+  margin-top: 172px;
+  display: inline-block;
+}
+
+.header-blue .iphone-mockup img.device {
+  width: 100%;
+  height: auto;
+}
+
+.header-blue .iphone-mockup .screen {
+  position: absolute;
+  width: 88%;
+  height: 77%;
+  top: 12%;
+  border-radius: 2px;
+  left: 6%;
+  border: 1px solid #444;
+  background-color: #aaa;
+  overflow: hidden;
+  /* background: url(../../assets/img/screen-content-iphone-6.jpg); */
+  background-size: cover;
+  background-position: center;
+}
+
+.header-blue .iphone-mockup .screen:before {
+  content: "";
+  background-color: rgb(17, 11, 11);
+  position: absolute;
+  width: 70%;
+  height: 140%;
+  top: -12%;
+  right: -60%;
+  transform: rotate(-19deg);
+  opacity: 0.2;
+}

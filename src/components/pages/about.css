@@ -1,0 +1,104 @@
+.header-gray {
+  /* background: linear-gradient(135deg, #fe2929, #ffb3c5); */
+  /* background-color: #0c1014; */
+  background-image: url(../../../public/img/about.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 80px;
+  /* position: fixed; */
+  height: 100vh;
+  width: 100%;
+  color: #000;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.navbar {
+  -webkit-box-shadow: 0px -1px 9px -3px rgba(0, 0, 0, 0.75) !important;
+  -moz-box-shadow: 0px -1px 9px -3px rgba(0, 0, 0, 0.75) !important;
+  box-shadow: 0px -1px 9px -3px rgba(0, 0, 0, 0.75) !important;
+}
+@media (min-width: 768px) {
+  .header-gray.navbar-nav .nav-link {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-gray.navbar-nav .nav-link {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+.header-gray.navbar.navbar-light .navbar-nav .nav-link {
+  color: rgb(14, 12, 12);
+  font-weight: bold;
+}
+
+.header-gray.navbar.navbar-light .navbar-nav .nav-link:focus,
+.header-gray.navbar.navbar-light .navbar-nav .nav-link:hover {
+  color: red !important;
+  background-color: transparent;
+}
+
+.header-gray.navbar .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(17, 15, 15);
+  border-radius: 2px;
+}
+
+.header-gray.navbar .dropdown-menu .dropdown-item:focus,
+.header-gray.navbar .dropdown-menu .dropdown-item {
+  line-height: 2;
+  color: #37434d;
+}
+
+.header-gray.navbar .dropdown-menu .dropdown-item:focus,
+.header-gray.navbar .dropdown-menu .dropdown-item:hover {
+  background: #23485a;
+}
+
+.header-gray.action-button,
+.header-gray.action-button:not(.disabled):active {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 40px;
+  color: rgb(8, 8, 8);
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0.3rem 0.8rem;
+  background: transparent;
+  transition: background-color 0.25s;
+  outline: none;
+}
+
+.header-gray.action-button:hover {
+  color: rgb(19, 17, 17);
+}
+
+.header-gray.navbar .form-inline label {
+  color: #d9d9d9;
+}
+
+.header-gray.navbar .form-inline .search-field {
+  display: inline-block;
+  width: 80%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  color: rgb(12, 11, 11);
+  box-shadow: none;
+  color: inherit;
+  transition: border-bottom-color 0.3s;
+}
+
+.header-gray.navbar .form-inline .search-field:focus {
+  border-bottom: 1px solid #ccc;
+}
+.about-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

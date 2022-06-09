@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Teko&display=swap");
+
+.header-blue {
+  height: 100vh;
+  background-image: url(../../../public/img/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: linear-gradient(135deg, #fe2929, #ffb3c5); */
+  /* background-color: #184e8e; */
+  padding-bottom: 80px;
+  overflow: hidden;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.navbar {
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+:active {
+  color: red !important;
+}
+.navbar-nav > li > a {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-right: 20px;
+  color: #fff;
+  font-family: "Lobster", cursive;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  padding: 0.2rem 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.nav-link {
+  font-size: 1rem !important;
+  font-weight: bold;
+  color: black !important;
+}
+.nav-link:hover {
+  font-size: 1rem !important;
+  font-weight: bold;
+  color: rgb(248, 53, 53) !important;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: #000;
+  clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+  transition: 1s all;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-family: "Allerta Stencil", sans-serif;
+  margin-bottom: 4px;
+  font-size: 27px;
+}
+
+.navbar-red:hover .wrapper {
+  clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-red {
+  background-color: transparent;
+  color: #fff;
+}
+
+.all-show {
+  z-index: 10;
+}
+.sim span {
+  font-size: 1.2rem;
+  color: green;
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+  letter-spacing: 5px;
+}
+@media screen and (max-width: 600px) {
+  .header-blue {
+    height: auto;
+  }
+}
